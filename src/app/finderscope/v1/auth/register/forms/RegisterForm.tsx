@@ -116,7 +116,7 @@ const RegisterForm = () => {
       <div className="w-[100%] flex justify-center items-center flex-col">
         <ToastContainer />
         <Loader closeLoader={closeLoader} loaderOpen={loaderOpen} />
-        <h2 className="text-custom-lg font-[600] text[46.13px]">
+        <h2 className="text-custom-lg font-aptos font-[600] text[46.13px]">
           Crear una cuenta
         </h2>
         <form className="flex flex-col w-[80%]" onSubmit={handleSubmit}>

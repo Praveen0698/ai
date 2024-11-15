@@ -60,7 +60,9 @@ const VerifyEmail = () => {
       </div>
       <div className="w-[100%] flex justify-center items-center flex-col text-center">
         <Loader closeLoader={closeLoader} loaderOpen={loaderOpen} />
-        <h2 className="text[46.13px] font-[600]">Verificación exitosa</h2>{" "}
+        <h2 className="text[46.13px] font-[600] font-aptos">
+          Verificación exitosa
+        </h2>{" "}
         {/* Title for verification message */}
         <p className="text-[#ACACAC] text-sm mt-2.5">
           Redirigir a la página de inicio de sesión

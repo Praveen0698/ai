@@ -118,7 +118,7 @@ const LoginForm = () => {
 
       {/* Main form container */}
       <div className="w-[100%] flex justify-center items-center flex-col">
-        <h2 className=" text[46.13px] font-[600] text-custom-lg">
+        <h2 className=" text[46.13px] font-[600] font-aptos text-custom-lg">
           Bienvenido a <span className="text-[#0066FF]">Finderscope</span>
         </h2>
         <ToastContainer />

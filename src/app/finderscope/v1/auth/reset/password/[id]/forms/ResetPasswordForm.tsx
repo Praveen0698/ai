@@ -129,7 +129,9 @@ const ResetPasswordForm = () => {
         {/* Centered content container */}
         <ToastContainer />
         <Loader closeLoader={closeLoader} loaderOpen={loaderOpen} />
-        <h2 className=" text[46.13px] font-[600]">Crear contraseña</h2>{" "}
+        <h2 className=" text[46.13px] font-[600] font-aptos">
+          Crear contraseña
+        </h2>{" "}
         {/* Title for the reset password form */}
         <form className="flex flex-col w-[80%]" onSubmit={handleSubmit}>
           {/* Form container */}
