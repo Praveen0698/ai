@@ -269,7 +269,8 @@ const ChatMain: React.FC<GuestLoginProps> = ({ setTotalMessages }) => {
                       justifyContent:
                         message.role === "user" ? "flex-end" : "flex-start", // Align based on message role
                       float: message.role === "user" ? "right" : "left",
-                      width: message.role === "user" ? "85%" : "90%",
+                      width: message.role === "user" ? "100%" : "90%",
+                      paddingLeft: message.role === "user" ? "100px" : "0",
                     }}
                     className="relative my-3 flex items-start overflow-x-scroll hide-scrollbar markdown-body"
                   >
